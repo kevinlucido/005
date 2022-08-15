@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Button Clicker</title>
+    <link rel="stylesheet" href="button-clicker.css">
+    <script src="button-clicker.js"></script>
+</head>
+<body>
+    <!-- NAV -->
+    <div class="nav">
+        <div class="box">
+            <h1>Dojonary.</h1>
+        </div>
+        <div class="box-search">
+            <label>
+                <input type="text" name="search" placeholder="Search" class="bar-login">
+                <button class="btn-login" onclick="logOut(this)">Login</button>
+            </label>
+        </div>
+    </div>
+    <!-- NAV -->
+
+    <!-- WRAPPER -->
+    <div class="wrapper">
+        <div class="col-2">
+            <div class="card">
+                <div class="row">
+                    <h1>ninja</h1>
+                    <p><i>noun</i></p>
+                    <h3>Plural: <i>ninjas</i></h3>
+                    <button class="btn-like" onclick="alert('Ninja was liked!')">13 likes</button>
+                </div>
+
+                <div class="row-2">
+                    <p>A practitioner skilled in the <span>Japanese</span> art of <span>ninjutsu</span></p>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="row">
+                    <h1>ninja</h1>
+                    <p><i>noun</i></p>
+                    <h3>Plural: <i>ninjas</i></h3>
+                    <button class="btn-like" onclick="alert('Ninja was liked!')">37 likes</button>
+                </div>
+
+                <div class="row-2">
+                    <p>A <span>programmer</span> who breaks down problems with <span>zen</span>-like focus</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col">
+            <div class="card">
+                <h2>Dojonary. is defined by YOU</h2>
+                <button class="btn-def" onclick="hide(this)">Add Definition</button>
+            </div>
+        </div>
+    </div>
+    <!-- WRAPPER -->
+
+    <div class="footer"></div>
+</body>
+</html>
